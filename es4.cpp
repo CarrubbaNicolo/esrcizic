@@ -8,9 +8,9 @@ int i = 1;
 int prodotto;
 cout<<"inserisci un numero";
 cin>>a;
-while(i=n){
+while(i<=n){
 prodotto = n*i;
-i--;
+i= i+1;
 }
 cout<<prodotto;
 }
